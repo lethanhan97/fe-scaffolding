@@ -2,6 +2,43 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+## Setup
+
+### Prerequisites
+
+- [Bun](https://bun.sh) (this project uses `bun.lock`)
+- Node.js 20+ (recommended for tooling compatibility)
+
+### Installation
+
+Clone the repo and install dependencies:
+
+```bash
+bun install
+```
+
+### Development
+
+Start the dev server with HMR:
+
+```bash
+bun run dev
+```
+
+The app will be available at http://localhost:5173.
+
+### Other scripts
+
+```bash
+bun run build         # Type-check and build for production
+bun run preview       # Preview the production build locally
+bun run lint          # Run ESLint
+bun run format        # Format files with Prettier
+bun run format:check  # Check formatting without writing
+```
+
+## Plugins
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
