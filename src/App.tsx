@@ -1,9 +1,11 @@
-import { JSONDisplayTest } from './JSONDisplay.problem'
+// import { JSONDisplayTest } from './JSONDisplay.problem'
+import { DebounceTest } from './Debounce.problem'
 
 function App() {
   return (
     <div>
-      <JSONDisplayTest />
+      {/* <JSONDisplayTest /> */}
+      <DebounceTest />
     </div>
   )
 }
