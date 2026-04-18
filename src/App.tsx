@@ -1,5 +1,11 @@
+import { JSONDisplayTest } from './JSONDisplay.problem'
+
 function App() {
-  return <div>Test code will be here</div>
+  return (
+    <div>
+      <JSONDisplayTest />
+    </div>
+  )
 }
 
 export default App
