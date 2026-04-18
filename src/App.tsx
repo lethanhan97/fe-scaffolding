@@ -1,15 +1,15 @@
-// import { JSONDisplayProblem } from './JSONDisplay.problem'
+import { JSONDisplayProblem } from './JSONDisplay.problem'
 // import { DebounceProblem } from './Debounce.problem'
-import { BouncingBallProblem } from './BouncingBall.problem'
+// import { BouncingBallProblem } from './BouncingBall.problem'
 // import { ThrottleProblem } from './Throttle.problem'
 
 function App() {
   return (
     <div>
-      {/* <JSONDisplayProblem /> */}
+      <JSONDisplayProblem />
       {/* <DebounceProblem /> */}
       {/* <ThrottleProblem /> */}
-      <BouncingBallProblem />
+      {/* <BouncingBallProblem /> */}
     </div>
   )
 }
